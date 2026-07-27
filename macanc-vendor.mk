@@ -1485,7 +1485,6 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub \
     libmfGhostDetection \
     libmfec \
-    libmidasserviceintf \
     libmidasserviceintf_aidl \
     libmmcamera_bestats \
     libmmcamera_cac \
@@ -1550,7 +1549,6 @@ PRODUCT_PACKAGES += \
     libvpp_frc \
     libvpp_gfrc_networks \
     libvpp_svc_skel \
-    vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     libQnnHtpV81Skel.signed.aiframe \
