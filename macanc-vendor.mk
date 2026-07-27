@@ -831,6 +831,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
+    vendor/oneplus/macanc/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
     vendor/oneplus/macanc/proprietary/odm/etc/camera/stereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/stereoParams.bin \
@@ -855,6 +856,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/macanc/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
     vendor/oneplus/macanc/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/oneplus/macanc/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
+    vendor/oneplus/macanc/proprietary/odm/etc/init/occe_create.rc:$(TARGET_COPY_OUT_ODM)/etc/init/occe_create.rc \
     vendor/oneplus/macanc/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/macanc/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/macanc/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
@@ -1460,6 +1462,7 @@ PRODUCT_PACKAGES += \
     libhwfenceclient \
     libhwliqinterface2 \
     libhwlispcffdump \
+    libiccprofile \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -1502,6 +1505,8 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libtfestriping \
     libubifocus \
+    libui-stock \
+    libutils-stock \
     libvideoml \
     libDLDPP_skel \
     libHexlpQnnHtp \
@@ -1573,6 +1578,7 @@ PRODUCT_PACKAGES += \
     libAlgoInterface \
     libAlgoProcess \
     libAncFilter \
+    libAncHumanSegFigureFusion \
     libAncSegBaseSdk \
     libAncSegmentSdk \
     libBasicTonePhoto \
@@ -1609,6 +1615,7 @@ PRODUCT_PACKAGES += \
     libOPLUSMotionDetection \
     libOplusPDCore \
     libOpo_awb \
+    libPDParamParser \
     libQnnCpu \
     libQnnGpu \
     libQnnHtp \
@@ -1748,4 +1755,5 @@ PRODUCT_PACKAGES += \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.cammidasservice-V1-service
+    vendor.oplus.hardware.cammidasservice-V1-service \
+    occe_create
